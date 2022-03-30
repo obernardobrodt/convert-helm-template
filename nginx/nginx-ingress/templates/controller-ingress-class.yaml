@@ -1,0 +1,8 @@
+---
+# Source: nginx-ingress/templates/controller-ingress-class.yaml
+apiVersion: networking.k8s.io/v1
+kind: IngressClass
+metadata:
+  name: nginx
+spec:
+  controller: nginx.org/ingress-controller

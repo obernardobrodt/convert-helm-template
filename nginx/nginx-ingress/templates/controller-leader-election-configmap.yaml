@@ -1,0 +1,12 @@
+---
+# Source: nginx-ingress/templates/controller-leader-election-configmap.yaml
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: nginx-nginx-ingress-leader-election
+  namespace: default
+  labels:
+    app.kubernetes.io/name: nginx-nginx-ingress
+    helm.sh/chart: nginx-ingress-0.12.2
+    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/instance: nginx
