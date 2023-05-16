@@ -8,6 +8,8 @@ bash
     ` helm repo add nginx-stable https://helm.nginx.com/stable `
 
 
+
+
 - repo update
 
 bash
@@ -16,4 +18,6 @@ bash
 - repo create manifets k8s
 
 bash
-    ` helm template nginx nginx-stable/nginx-ingress -f .\nginx-controller-value.yaml --output-dir=nginx`    
+    ` helm template nginx nginx-stable/nginx-ingress -f .\nginx-controller-value.yaml --output-dir=nginx`  
+
+##TESTE  
